@@ -1,4 +1,9 @@
 .main {
-  padding: 0 19px;
-  padding-top: 42px;
+  padding: 42px 19px 0;
+}
+
+@media screen and (min-width: 900px) {
+  .main {
+    padding: 40px 0 0;
+  }
 }
