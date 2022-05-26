@@ -10,7 +10,6 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 7.5px 7.5px;
-  cursor: pointer;
 }
 
 @media screen and (min-width: 900px) {
@@ -20,5 +19,10 @@
     top: 15px;
     right: -39px;
     background-size: 10px 10px;
+    cursor: pointer;
+  }
+
+  .profile__edit-button:hover {
+    opacity: 0.6;
   }
 }

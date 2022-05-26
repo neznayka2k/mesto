@@ -18,5 +18,10 @@
     height: 32px;
     right: -35px;
     background-size: 32px 32px;
+    cursor: pointer;
+  }
+
+  .popup__close-button:hover {
+    opacity: .6;
   }
 }

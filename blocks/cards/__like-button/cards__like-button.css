@@ -10,3 +10,7 @@
   background-size: cover;
   cursor: pointer;
 }
+
+.cards__like-button:hover {
+  opacity: .5;
+}
