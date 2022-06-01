@@ -1,5 +1,6 @@
 .popup__sumbit {
   box-sizing: border-box;
+  padding: 0;
   border: none;
   width: 100%;
   min-height: 46px;
@@ -16,6 +17,8 @@
 
 @media screen and (min-width: 900px) {
   .popup__sumbit {
+    font-size: 18px;
+    line-height: 22px;
     min-height: 50px;
   }
 
